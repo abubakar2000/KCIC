@@ -8,6 +8,7 @@ namespace KCICApprovalQueue
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            // test code
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -15,6 +16,7 @@ namespace KCICApprovalQueue
                 .ConfigureWebHostDefaults(webBuilder => 
                 {
                     webBuilder.UseStartup<Startup>();
+                    //  desktop
                 });
     }
 }
